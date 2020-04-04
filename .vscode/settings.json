@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[ruby]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "rebornix.ruby"
+  },
+  "[scss]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "ruby.useLanguageServer": true,
+  "ruby.lintDebounceTime": 1500,
+  "ruby.useBundler": true,
+  "ruby.lint": {
+    "standard": {
+      "useBundler": true
+    }
+  },
+  "ruby.format": "standard",
+  "git.ignoreLimitWarning": true
+}
